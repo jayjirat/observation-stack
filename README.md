@@ -22,7 +22,7 @@ This stack provides a comprehensive observability solution with the following co
 1. Clone this repository:
 ```bash
 git clone <your-repo-url>
-cd observability-stack
+cd observation-stack
 ```
 
 2. Start the stack:
