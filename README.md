@@ -74,8 +74,7 @@ Configure your applications to send telemetry data to:
 2. Log in with admin/admin
 3. Add Prometheus as a data source:
    - URL: `http://prometheus:9090`
-4. Add Prometheus Datasource **Connection** `http://prometheus:9090`
-5. Import pre-built dashboards from `HTTP_Metrics_OpenTelemetry.json`
+4. Import pre-built dashboards from `HTTP_Metrics_OpenTelemetry.json`
 
 ## 🧪 Test API to Generate Telemetry Data
 
