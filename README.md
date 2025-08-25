@@ -20,17 +20,20 @@ This stack provides a comprehensive observability solution with the following co
 ## 🚀 Quick Start
 
 1. Clone this repository:
+
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/jayjirat/observation-stack.git
 cd observation-stack
 ```
 
 2. Start the stack:
+
 ```bash
 docker compose up -d
 ```
 
 3. Verify all services are running:
+
 ```bash
 docker compose ps
 ```
@@ -39,17 +42,18 @@ docker compose ps
 
 After starting the stack, you can access the following services:
 
-| Service | URL | Description |
-|---------|-----|-------------|
-| Grafana | http://localhost:3000 | Dashboards and visualization (admin/admin) |
-| Prometheus | http://localhost:9090 | Metrics database and query interface |
-| Jaeger UI | http://localhost:16686 | Distributed tracing interface |
-| OTLP gRPC | localhost:4317 | OpenTelemetry gRPC endpoint |
-| OTLP HTTP | localhost:4318 | OpenTelemetry HTTP endpoint |
+| Service    | URL                    | Description                                |
+| ---------- | ---------------------- | ------------------------------------------ |
+| Grafana    | http://localhost:3000  | Dashboards and visualization (admin/admin) |
+| Prometheus | http://localhost:9090  | Metrics database and query interface       |
+| Jaeger UI  | http://localhost:16686 | Distributed tracing interface              |
+| OTLP gRPC  | localhost:4317         | OpenTelemetry gRPC endpoint                |
+| OTLP HTTP  | localhost:4318         | OpenTelemetry HTTP endpoint                |
 
 ## 📊 Default Credentials
 
 ### Grafana
+
 - **Username**: `admin`
 - **Password**: `admin`
 
